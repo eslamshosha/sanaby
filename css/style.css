@@ -467,7 +467,7 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
 }
 .big-image-cont{
     overflow: hidden;
-    display: inline-block;
+    display: block;
     position: relative;
 }
 .big-image-cont:after {
@@ -609,7 +609,7 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
     display: block;
     color: #000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "ibmRegular";
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
@@ -634,11 +634,11 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
 }
 .product-content .price-box .first-price{
     font-family: "ibmBold";
-    font-size: 24px;
+    font-size: 18px;
 }
 .product-content .price-box .last-price{
     font-family: "ibmRegular";
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: line-through;
     color: #757575;
 }
