@@ -142,7 +142,7 @@ body {
 .nav-header li .cat-anchor .chevron-down,
 .nav-header li .cat-anchor{
     color: #424242;
-    font-size: 17.5px;
+    font-size: 16px;
     font-family: "ibmMedium";
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
@@ -228,7 +228,7 @@ html[dir=rtl] .nav-header .cat-li:last-of-type{
     color: #424242;
     border: none;
     background-color: transparent;
-    font-size: 19px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -432,7 +432,7 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
     color: #7e2729;
     text-decoration: none;
     font-family: "ibmMedium";
-    font-size: 19px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -593,7 +593,7 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
     color: #fff;
 }
 .product-add-span{
-    font-size: 22.2px;
+    font-size: 18px;
     font-family: "ibmMedium";
 }
 .product-box:hover .product-add{   
@@ -684,7 +684,7 @@ html[dir=rtl] .swiper-btn.swiper-btn-prev {
     text-decoration: none;
 }
 .features-box .features-icon{
-    font-size: 44px;
+    font-size: 36px;
     color: #7f2629;
 }
 /* html[dir=rtl] .features-box .features-icon{
@@ -698,7 +698,7 @@ html[dir=rtl] .features-box .features-text{
     margin-right: 15px;
 }
 .features-box .features-h{
-    font-size: 20px;
+    font-size: 16px;
     font-family: "ibmBold";
     color: #212121;
     margin: 0;
@@ -766,14 +766,14 @@ html[dir=ltr] .features-box .features-span{
     padding: 95px 0 85px;
 }
 .news-head{
-    font-size: 38px;
+    font-size: 30px;
     font-family: "ibmBold";
     color: #fff;
     margin: 0;
     margin-bottom: 15px;
 }
 .news-pargh{
-    font-size: 25px;
+    font-size: 20px;
     font-family: "ibmRegular";
     color: #fff;
 }
@@ -895,7 +895,7 @@ html[dir=rtl] .social{
 }
 .nav-foot-link{
     color: #757575;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "ibmMedium";
     transition: all 0.3s ease-in-out;
 }
@@ -915,14 +915,14 @@ html[dir=rtl] .social{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "ibmRegular";
     color: #757575;
 }
 .design-text{
     display: flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 14px;
     font-family: "ibmRegular";
 }
 .copy-right .taswak-img{
@@ -1218,9 +1218,6 @@ html[dir=rtl] .social{
         align-items: center;
         justify-content: center;
     }
-    .features-box .features-h{
-        font-size: 16px;
-    }
     .features-box .features-icon{
         margin-bottom: 10px;
     }
@@ -1276,19 +1273,17 @@ html[dir=rtl] .social{
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
+    .product-content .price-box {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 350px){
     .product .product-content{
         padding: 10px 0 0;
     }
-    .product-content .price-box {
-        display: flex;
-        flex-direction: column;
-    }
 } 
-
-/***************************model-search*************************/
 /*overlay*/
 .overlay-box,
 .overlay-box2 {
