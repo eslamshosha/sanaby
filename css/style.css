@@ -740,7 +740,7 @@ html[dir=ltr] .features-box .features-span{
 .feature-section .swiper-pagination .swiper-pagination-bullet {
     width: 5px;
     height: 5px;
-    background-color: #fff;
+    background-color: #424242;
     opacity: 0.5;
     margin: 0 5px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1190,7 +1190,6 @@ html[dir=rtl] .social{
     /*                           category-section                        */
     .category-cont {
         grid-template-columns: repeat(4, 1fr);
-        gap: 15px;
     }
     /*                           category-section                        */
     /*        big-image-section           */
@@ -1271,11 +1270,15 @@ html[dir=rtl] .social{
 @media (max-width: 767px){
     .category-cont {
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
+        gap: 25px 15px;
     }
     .product-content .price-box {
         display: flex;
         flex-direction: column;
+    }
+    .copy-right,
+    .design-text{
+        font-size: 12px;
     }
 }
 
